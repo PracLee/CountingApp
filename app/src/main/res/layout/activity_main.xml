@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="100"
@@ -22,7 +23,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/resetBtn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="reset"
@@ -33,12 +34,12 @@
             />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/plusBtn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="16dp"
-            android:text="*" />
+            android:text="+" />
     </LinearLayout>
 
 
